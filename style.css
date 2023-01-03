@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 60%;
+    margin:auto;
+    font-family: Helvetica, sans-serif;
+  }
+  .row{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .col{
+   padding:27px;
+   display:flex;
+   border:1px solid gray;
+  }
+  h4{
+    padding:20px 0;
+  }
+  button{
+    border:1px solid red;
+   display: block;
+   padding:10px;
+   margin:8px 0;
+   background-color:aqua;
+   color:red;
+  }
+  
+
+  
